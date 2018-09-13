@@ -1,0 +1,5 @@
+.checkstyle
+.project
+.settings
+
+pom.xml.*
