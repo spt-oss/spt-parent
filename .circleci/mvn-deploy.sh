@@ -12,7 +12,7 @@ function self::execute() {
 	if [[ -n ${version} ]]; then
 		
 		mvn-release-prepare ${version}
-		mvn-release-perform -P gpg -Darguments=-Dgpg.passphrase=${password}
+		mvn-release-perform -P gpg -Darguments="-DskipTests -Dgpg.passphrase=${password}"
 		
 		git-flow-release-finish ${branch}
 		

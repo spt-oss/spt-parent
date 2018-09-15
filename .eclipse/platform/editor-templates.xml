@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE templates>
+<templates>
+
+<template autoinsert="false" context="java-statements" deleted="false" description="catch ..." enabled="true" id="org.eclipse.jdt.ui.templates.catch" name="catch">catch (${Exception} ${exception_variable_name}) {
+	
+	${cursor}
+}</template>
+
+<template autoinsert="false" context="java" deleted="false" description="@checkstyle:ignore" enabled="true" name="checkstyle:ignore">// TODO @checkstyle:ignore</template>
+
+<template autoinsert="false" context="java-statements" deleted="false" description="do ... while ..." enabled="true" id="org.eclipse.jdt.ui.templates.do" name="do">do {
+	
+	${line_selection}${cursor}
+}
+while (${condition:var(boolean)});</template>
+
+<template autoinsert="false" context="java-statements" deleted="false" description="else ..." enabled="true" id="org.eclipse.jdt.ui.templates.else" name="else">else {
+	
+	${cursor}
+}</template>
+
+<template autoinsert="false" context="java-statements" deleted="false" description="else if ..." enabled="true" id="org.eclipse.jdt.ui.templates.elseif" name="elseif">else if (${condition:var(boolean)}) {
+	
+	${cursor}
+}</template>
+
+<template autoinsert="false" context="javadoc" deleted="false" description="{@code false}" enabled="true" id="org.eclipse.jdt.ui.templates.code_tag_false" name="false">{@code false}</template>
+
+<template autoinsert="false" context="java-statements" deleted="false" description="for (index) ..." enabled="true" id="org.eclipse.jdt.ui.templates.for_array" name="for">for (int ${index} = 0; ${index} &lt; ${array}.length; ${index}++) {
+	
+	${line_selection}${cursor}
+}</template>
+
+<template autoinsert="false" context="java-statements" deleted="false" description="for (iterator) ..." enabled="true" id="org.eclipse.jdt.ui.templates.for_iterable" name="foreach">for (${iterable_type} ${iterable_element} : ${iterable}) {
+	
+	${cursor}
+}</template>
+
+<template autoinsert="false" context="java" deleted="false" description="@formatter:on/off" enabled="true" name="formatter:on/off">/* @formatter:off */
+/* @formatter:on */</template>
+
+<template autoinsert="false" context="java-statements" deleted="false" description="if ..." enabled="true" id="org.eclipse.jdt.ui.templates.if" name="if">if (${condition:var(boolean)}) {
+	
+	${line_selection}${cursor}
+}</template>
+
+<template autoinsert="false" context="java-statements" deleted="false" description="if ... else ..." enabled="true" id="org.eclipse.jdt.ui.templates.ifelse" name="ifelse">if (${condition:var(boolean)}) {
+	
+	${cursor}
+}
+else {
+	
+	/* NOP */
+}</template>
+
+<template autoinsert="false" context="java-members" deleted="false" description="private static final org.slf4j.Logger ..." enabled="true" name="logger">/**
+ * {@link Logger}
+ */
+private static final ${loggerType:newType(org.slf4j.Logger)} logger = ${loggerFactoryType:newType(org.slf4j.LoggerFactory)}.getLogger(${cursor});</template>
+
+<template autoinsert="false" context="java-members" deleted="false" description="private static final org.slf4j.XLogger ..." enabled="true" name="logger">/**
+ * {@link XLogger}
+ */
+private static final ${loggerType:newType(org.slf4j.XLogger)} logger = ${loggerFactoryType:newType(org.slf4j.XLoggerFactory)}.getLogger();${cursor}</template>
+
+<template autoinsert="false" context="java-members" deleted="false" description="public static void main ..." enabled="true" id="org.eclipse.jdt.ui.templates.main" name="main">public static void main(String... args) {
+	
+	${cursor}
+}</template>
+
+<template autoinsert="false" context="java" deleted="false" description="/* NOP */" enabled="true" name="nop">/* NOP */</template>
+
+<template autoinsert="false" context="javadoc" deleted="false" description="{@code null}" enabled="true" id="org.eclipse.jdt.ui.templates.code_tag_null" name="null">{@code null}</template>
+
+<template autoinsert="false" context="java-members" deleted="false" description="private ..." enabled="true" id="org.eclipse.jdt.ui.templates.private_method" name="private">private ${return_type} ${name}(${}) {
+	
+	${cursor}
+}</template>
+
+<template autoinsert="false" context="java-members" deleted="false" description="private static ..." enabled="true" id="org.eclipse.jdt.ui.templates.private_static_method" name="privatestatic">private static ${return_type} ${name}(${}) {
+	
+	${cursor}
+}</template>
+
+<template autoinsert="false" context="java-members" deleted="false" description="protected ..." enabled="true" id="org.eclipse.jdt.ui.templates.protected_method" name="protected">protected ${return_type} ${name}(${}) {
+	
+	${cursor}
+}</template>
+
+<template autoinsert="false" context="java-members" deleted="false" description="public ..." enabled="true" id="org.eclipse.jdt.ui.templates.public_method" name="public">public ${return_type} ${name}(${}) {
+	
+	${cursor}
+}</template>
+
+<template autoinsert="false" context="java-members" deleted="false" description="public static ..." enabled="true" id="org.eclipse.jdt.ui.templates.public_static_method" name="publicstatic">public static ${return_type} ${name}(${}) {
+	
+	${cursor}
+}</template>
+
+<template autoinsert="false" context="java-statements" deleted="false" description="switch ... case ..." enabled="true" id="org.eclipse.jdt.ui.templates.switch" name="switch">switch (${key}) {
+	
+	case ${value}:
+		
+		${cursor}
+		break;
+		
+	default:
+		
+		break;
+}</template>
+
+<template autoinsert="false" context="java-statements" deleted="false" description="synchronized ..." enabled="true" id="org.eclipse.jdt.ui.templates.synchronized" name="synchronized">synchronized (${mutex:var}) {
+	
+	${line_selection}${cursor}
+}</template>
+
+<template autoinsert="false" context="java-statements" deleted="false" description="System.err.println ..." enabled="true" id="org.eclipse.jdt.ui.templates.syserr" name="syserr">System.err.println(${word_selection}${});${cursor}</template>
+
+<template autoinsert="false" context="java-statements" deleted="false" description="System.out.println ..." enabled="true" id="org.eclipse.jdt.ui.templates.sysout" name="sysout">System.out.println(${word_selection}${});${cursor}</template>
+
+<template autoinsert="false" context="javadoc" deleted="false" description="{@code true}" enabled="true" id="org.eclipse.jdt.ui.templates.code_tag_true" name="true">{@code true}</template>
+
+<template autoinsert="false" context="java-statements" deleted="false" description="try ... catch ..." enabled="true" id="org.eclipse.jdt.ui.templates.try" name="try">try {
+	
+	${line_selection}${cursor}
+}
+catch (${Exception} ${exception_variable_name}) {
+	
+	/* NOP */
+}</template>
+
+<template autoinsert="false" context="java-statements" deleted="false" description="while (boolean) ..." enabled="true" id="org.eclipse.jdt.ui.templates.while_condition" name="while">while (${condition:var(boolean)}) {
+	
+	${line_selection}${cursor}
+}</template>
+
+<template autoinsert="false" context="java-statements" deleted="false" description="while (iterator) ..." enabled="true" name="while">while (${it:var(java.util.Iterator)}.hasNext()) {
+	
+	${type:argType(it)} ${elem:newName(type)} = (${type}) ${it}.next();${cursor}
+}</template>
+
+</templates>

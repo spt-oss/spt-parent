@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE templates>
+<templates>
+
+<template autoinsert="false" context="gettercomment_context" deleted="false" description="Getter Comment" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.gettercomment" name="gettercomment">/**
+ * TODO Getter
+ * @return TODO Value
+ */</template>
+
+<template autoinsert="false" context="settercomment_context" deleted="false" description="Setter Comment" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.settercomment" name="settercomment">/**
+ * TODO Setter
+ * @param ${param} TODO Value
+ */</template>
+
+<template autoinsert="false" context="constructorcomment_context" deleted="false" description="Constructor Comment" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.constructorcomment" name="constructorcomment">/**
+ * Constructor
+ * ${tags}
+ */</template>
+
+<template autoinsert="false" context="filecomment_context" deleted="false" description="File Comment" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.filecomment" name="filecomment"/>
+
+<template autoinsert="false" context="typecomment_context" deleted="false" description="Class Comment" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.typecomment" name="typecomment">/**
+ * TODO Class
+ * ${tags}
+ */</template>
+
+<template autoinsert="false" context="fieldcomment_context" deleted="false" description="Field Comment" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.fieldcomment" name="fieldcomment">/**
+ * TODO Field
+ */</template>
+
+<template autoinsert="false" context="methodcomment_context" deleted="false" description="Method Comment" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.methodcomment" name="methodcomment">/**
+ * TODO Method
+ * ${tags}
+ */</template>
+
+<template autoinsert="false" context="overridecomment_context" deleted="false" description="Override Comment" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.overridecomment" name="overridecomment"/>
+
+<template autoinsert="false" context="delegatecomment_context" deleted="false" description="Delegate Comment" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.delegatecomment" name="delegatecomment">/**
+ * TODO Delegate
+ * ${tags}
+ */</template>
+
+<template autoinsert="true" context="newtype_context" deleted="false" description="New File" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.newtype" name="newtype">${filecomment}
+${package_declaration}
+
+${typecomment}
+${type_declaration}</template>
+
+<template autoinsert="false" context="classbody_context" deleted="false" description="Class Body" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.classbody" name="classbody">
+// TODO Code</template>
+
+<template autoinsert="false" context="interfacebody_context" deleted="false" description="Interface Body" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.interfacebody" name="interfacebody">
+// TODO Code</template>
+
+<template autoinsert="false" context="enumbody_context" deleted="false" description="Enum Body" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.enumbody" name="enumbody">
+// TODO Code</template>
+
+<template autoinsert="false" context="annotationbody_context" deleted="false" description="Annotation Body" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.annotationbody" name="annotationbody">
+// TODO Code</template>
+
+<template autoinsert="false" context="catchblock_context" deleted="false" description="Catch Block" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.catchblock" name="catchblock">
+// TODO Code
+${exception_var}.printStackTrace();</template>
+
+<template autoinsert="false" context="methodbody_context" deleted="false" description="Method Body" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.methodbody" name="methodbody">
+${body_statement}</template>
+
+<template autoinsert="false" context="constructorbody_context" deleted="false" description="Constructor Body" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.constructorbody" name="constructorbody">
+${body_statement}</template>
+
+<template autoinsert="false" context="getterbody_context" deleted="false" description="Getter Body" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.getterbody" name="getterbody">
+return this.${field};</template>
+
+<template autoinsert="false" context="setterbody_context" deleted="false" description="Setter Body" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.setterbody" name="setterbody">
+this.${field} = ${param};</template>
+
+</templates>

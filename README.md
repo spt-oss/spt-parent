@@ -5,15 +5,15 @@
 
 * Parent POM for Maven projects
 
-## Install
+## Usage
 
-* Set the parent in your POM.
+1. Set the parent in your POM.
 
 	```xml
 	<parent>
 		<groupId>com.github.spt-oss</groupId>
 		<artifactId>spt-parent</artifactId>
-		<version>X.X.X</version>
+		<version>2.0.5.0</version>
 	</parent>
 	```
 
