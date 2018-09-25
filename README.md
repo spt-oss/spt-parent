@@ -11,9 +11,9 @@
 
 	```xml
 	<parent>
-		<groupId>com.github.spt-oss</groupId>
-		<artifactId>spt-parent</artifactId>
-		<version>2.0.5.0</version>
+	    <groupId>com.github.spt-oss</groupId>
+	    <artifactId>spt-parent</artifactId>
+	    <version>2.0.5.1</version>
 	</parent>
 	```
 
