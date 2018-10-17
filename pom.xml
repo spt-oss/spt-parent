@@ -59,6 +59,7 @@
 		<checkstyle.version>8.13</checkstyle.version>
 
 		<!-- TODO remove -->
+		<flyway.version>5.2.0</flyway.version>
 		<lombok.version>1.16.18</lombok.version>
 
 		<maven-checkstyle-plugin.version>3.0.0</maven-checkstyle-plugin.version>
