@@ -57,6 +57,7 @@
 	<properties>
 
 		<checkstyle.version>8.13</checkstyle.version>
+		<jsoup.version>1.11.3</jsoup.version>
 
 		<!-- TODO remove -->
 		<flyway.version>5.2.0</flyway.version>
@@ -70,6 +71,16 @@
 		<minify-maven-plugin.version>1.7.6</minify-maven-plugin.version>
 
 	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.jsoup</groupId>
+				<artifactId>jsoup</artifactId>
+				<version>${jsoup.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 	<dependencies>
 		<dependency>
