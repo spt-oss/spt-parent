@@ -59,11 +59,6 @@ else {
  */
 private static final ${loggerType:newType(org.slf4j.Logger)} logger = ${loggerFactoryType:newType(org.slf4j.LoggerFactory)}.getLogger(${cursor});</template>
 
-<template autoinsert="false" context="java-members" deleted="false" description="private static final org.slf4j.XLogger ..." enabled="true" name="logger">/**
- * {@link XLogger}
- */
-private static final ${loggerType:newType(org.slf4j.XLogger)} logger = ${loggerFactoryType:newType(org.slf4j.XLoggerFactory)}.getLogger();${cursor}</template>
-
 <template autoinsert="false" context="java-members" deleted="false" description="public static void main ..." enabled="true" id="org.eclipse.jdt.ui.templates.main" name="main">public static void main(String... args) {
 	
 	${cursor}
